@@ -5,18 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "watch": "@tailwindcss -i ./src/style.css -o ./src/output.css --watch",
+    "watch": "tailwindcss -i ./src/style.css -o ./src/output.css --watch",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "tailwindcss": "^4.0.9",
     "daisyui": "^5.0.0",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "vite": "^5.0.8"
-  },
-  "dependencies": {
-    "@tailwindcss/cli": "^4.0.9",
-    "tailwindcss": "^4.0.9"
   }
 }
+
+
+
