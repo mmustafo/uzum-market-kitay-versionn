@@ -23,7 +23,7 @@ fetchData("https://dummyjson.com/product/" + id)
     maxolcham.textContent = product.dimensions.width;
     maxkg.textContent = product.weight;
     maxkafolat.textContent = product.warrantyInformation;
-    maxnarx.textContent = product.price;
+    maxnarx.textContent = ` $${product.price}`;
   })
   .catch(() => {
     console.log(error);
