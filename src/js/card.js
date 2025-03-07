@@ -1,4 +1,3 @@
-import "./dark-mode.js";
 const minus = document.getElementById("btnminus");
 const plus = document.getElementById("btnplus");
 const text = document.getElementById("card_textt");

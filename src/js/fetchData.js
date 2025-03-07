@@ -1,9 +1,8 @@
-
 import { showLoder } from "./loader.js";
 
 export const fetchData = async (url) => {
   try {
-    showLoder(true); 
+    showLoder(true);
 
     const req = await fetch(url);
 
@@ -12,8 +11,8 @@ export const fetchData = async (url) => {
     }
 
     const data = await req.json();
-    
-    showLoder(false); 
+
+    showLoder(false);
     return data;
   } catch (error) {
     showLoder(false);

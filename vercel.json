@@ -1,7 +1,0 @@
-{
-     "rewrites": [
-       { "source": "/product", "destination": "/product.html" },
-       { "source": "/card", "destination": "/card.html" }
-     ]
-   }
-   
